@@ -1,0 +1,46 @@
+echo "
+# Diretório de dependências do Node
+node_modules/
+
+# Diretórios de build
+dist/
+build/
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretórios temporários
+tmp/
+temp/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor/IDE
+.vscode/
+.idea/
+
+# Arquivos de cache
+.cache/
+.npm/
+
+# Arquivos de compilação
+*.tsbuildinfo
+
+# Ignorar lockfile do yarn se estiver usando npm
+yarn.lock
+
+# Ignorar lockfile do npm se estiver usando yarn
+package.json
+package-lock.json
+" > .gitignore
